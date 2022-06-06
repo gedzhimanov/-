@@ -1,0 +1,10 @@
+experience = int(input('Введите количество опыта: '))
+x = 1
+if experience < 1000:
+  print('Ваш уровень: ',x)
+elif experience >= 1000 and experience < 2500:
+  print('Ваш уровень: ',x + 1)
+elif experience >= 2500 and experience < 5000:
+  print('Ваш уровень: ',x + 2)
+elif experience >= 5000:
+  print('Ваш уровень: ',x + 3)
